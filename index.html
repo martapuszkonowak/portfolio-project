@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio - Marta Nowak</title>
+    <meta
+      name="description"
+      content="Marta is a front-end developer based in London"
+    />
+    <title>Front-end developer - Marta Nowak</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -30,15 +34,15 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/">
-          <img src="/images/logo.png" class="logo" alt="" />
+        <a href="/" title="Homepage">
+          <img src="/images/logo.png" class="logo" alt="Marta Logo" />
         </a>
 
         <ul>
-          <li class="active"><a href="/">Home</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/work.html">Work</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li class="active"><a href="/" title="Homepage">Home</a></li>
+          <li><a href="/about.html" title="About Marta">About</a></li>
+          <li><a href="/work.html" title="Marta's Work">Work</a></li>
+          <li><a href="/contact.html" title="Contact Marta">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -47,7 +51,9 @@
       <h1>Marta Nowak</h1>
       <h2 class="mb-5">Front-end developer based in London.</h2>
       <div>
-        <a href="#" class="btn btn-branding">Contact me</a>
+        <a href="/contact.html" class="btn btn-branding" title="Contact Marta"
+          >Contact me</a
+        >
       </div>
     </div>
     <p class="class= text-center m-5">Here are examples of my projects</p>
@@ -56,7 +62,7 @@
         <div class="col d-none d-lg-block text-center">
           <img
             src="/images/labrador.png"
-            alt="Labrador project"
+            alt="Labrador project preview"
             class="img-fluid rounded shadow"
           />
         </div>
@@ -70,9 +76,7 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="#" class="btn btn-branding-outline"
-              >Launch Labrador project</a
-            >
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
       </div>
@@ -87,15 +91,13 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="#" class="btn btn-branding-outline"
-              >Launch Weather project</a
-            >
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
         <div class="col d-none d-lg-block text-center">
           <img
             src="/images/weather.png"
-            alt="Weather project"
+            alt="Weather project preview"
             class="img-fluid rounded shadow"
           />
         </div>
@@ -107,14 +109,30 @@
             <p class="text-muted">Let's work together</p>
           </div>
           <div>
-            <a href="" class="btn btn-branding mt-3">Contact me</a>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-3"
+              title="Contact Marta"
+              >Contact me</a
+            >
           </div>
         </div>
         <div class="d-flex justify-content-center mt-5 mb-5">
-          <a href="mailto:martanowak@live.com" class="email-link"
+          <a
+            href="mailto:martanowak@live.com"
+            class="email-link"
+            title="Email Marta"
             >martanowak@live.com</a
           >
         </div>
+        <p class="text-center mt-5">
+          This project was coded by Marta Nowak, and it is
+          <a
+            href="https://github.com/martapuszkonowak/portfolio-project"
+            target="_blank"
+            >open-sourced</a
+          >
+        </p>
       </footer>
     </div>
   </body>

@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Contact Marta, the front-end developer based in London"
+    />
     <title>Contact Marta Nowak</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
@@ -28,11 +32,34 @@
     ></script>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img src="/images/logo.png" class="logo" alt="Marta Logo" />
+        </a>
+
+        <ul>
+          <li><a href="/" title="Homepage">Home</a></li>
+          <li><a href="/about.html" title="About Marta">About</a></li>
+          <li><a href="/work.html" title="Marta's Work">Work</a></li>
+          <li class="active">
+            <a href="/contact.html" title="Contact Marta">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="content">
         <h1 class="mb-5">Let's get in touch!</h1>
         <h3>Email</h3>
-        <p><a href="mailto:martanowak@live.com">martanowak@live.com</a></p>
+        <p>
+          <a
+            href="mailto:martanowak@live.com"
+            class="contact-email-link"
+            title="Email Marta"
+            >martanowak@live.com</a
+          >
+        </p>
       </div>
     </div>
   </body>

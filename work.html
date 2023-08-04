@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Learn more about Marta's new front-end projects"
+    />
     <title>My work - Marta Nowak</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
@@ -28,17 +32,41 @@
     ></script>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img src="/images/logo.png" class="logo" alt="Marta Logo" />
+        </a>
+
+        <ul>
+          <li><a href="/" title="Homepage">Home</a></li>
+          <li><a href="/about.html" title="About Marta">About</a></li>
+          <li class="active">
+            <a href="/work.html" title="Marta's Work">Work</a>
+          </li>
+          <li><a href="/contact.html" title="Contact Marta">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="content">
-        <h1 class="mb-5">Take a look at what I've been working on!</h1>
+        <h1 class="mb-5">Take a look at what I've been working on.</h1>
         <div class="row">
           <div class="col-md-6 text-center mb-4">
-            <img src="/images/labrador.png" class="img-fluid rounded shadow" />
+            <img
+              src="/images/labrador.png"
+              class="img-fluid rounded shadow"
+              alt="Labrador project preview"
+            />
             <h3 class="text-center mt-4">Labrador project</h3>
             <p class="text-center text-muted">Built with HTML and CSS</p>
           </div>
           <div class="col-md-6 text-center mb-4">
-            <img src="/images/weather.png" class="img-fluid rounded shadow" />
+            <img
+              src="/images/weather.png"
+              class="img-fluid rounded shadow"
+              alt="Weather project preview"
+            />
             <h3 class="text-center mt-4">Weather project</h3>
             <p class="text-center text-muted">
               Built with HTML, CSS and JavaScript
@@ -46,6 +74,38 @@
           </div>
         </div>
       </div>
+      <footer>
+        <div class="contact-box justify-content-between d-none d-md-flex">
+          <div>
+            <h4>Work enquiry</h4>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-3"
+              title="Contact Marta"
+              >Contact me</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mt-5 mb-5">
+          <a
+            href="mailto:martanowak@live.com"
+            class="email-link"
+            title="Email Marta"
+            >martanowak@live.com</a
+          >
+        </div>
+        <p class="text-center mt-5">
+          This project was coded by Marta Nowak, and it is
+          <a
+            href="https://github.com/martapuszkonowak/portfolio-project"
+            target="_blank"
+            >open-sourced</a
+          >
+        </p>
+      </footer>
     </div>
   </body>
 </html>

@@ -111,27 +111,13 @@ p {
 .SheCodes-link {
   text-decoration: none;
 }
-nav {
-  padding: 20px 0;
-}
-nav ul {
-  margin: 0;
-  padding: 0;
-}
-nav li {
-  display: inline;
-  list-style: none;
-  line-height: 50px;
-  margin-left: 15px;
-}
-nav a {
-  text-decoration: none;
-  color: #69647b;
-  transition: all 100ms ease-in-out;
-}
-nav a:hover,
-nav li.active a {
-  color: var(--branding-color);
+.navbar {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 footer .contact-box {
   background-color: var(--secondary-color);

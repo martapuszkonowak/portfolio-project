@@ -77,7 +77,12 @@ p {
   padding: 0 60px;
 }
 .content-container {
-  padding: 60px 20px;
+  padding: 100px 20px;
+}
+.content-container h1 {
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
 }
 .content h1 {
   font-size: 44px;
@@ -143,10 +148,9 @@ footer .email-link:hover {
 }
 
 .shadowBox {
-  margin-bottom: 80px;
+  margin-bottom: 150px;
   margin-top: 80px;
   padding: 0;
-
   box-shadow: var(--drop-shadow);
   border-radius: 7px;
   width: 100%;
@@ -203,7 +207,7 @@ footer .email-link:hover {
   }
   .content-container {
     text-align: center;
-    padding: 0;
+    padding: 20;
   }
   nav a {
     font-size: 14px;

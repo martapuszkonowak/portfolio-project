@@ -3,6 +3,7 @@
   --secondary-color: #f9f7fe;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
+  --drop-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 }
 body {
   font-family: var(--default-font-family);
@@ -51,6 +52,7 @@ p {
   font-size: 24px;
   line-height: 1.5;
 }
+
 .btn-branding {
   background-color: var(--branding-color);
   color: white;
@@ -101,6 +103,7 @@ p {
 .content {
   margin: 30px;
 }
+
 .logo {
   max-height: 40px;
 }
@@ -151,6 +154,50 @@ footer .email-link:hover {
 .contact-email-link {
   font-size: 24px;
   color: var(--branding-color);
+}
+
+.shadowBox {
+  margin-bottom: 80px;
+  margin-top: 80px;
+  padding: 0;
+
+  box-shadow: var(--drop-shadow);
+  border-radius: 7px;
+  width: 100%;
+}
+
+.skillsrow {
+  padding: 20px;
+  padding-bottom: 10px;
+}
+
+.skillscol {
+  padding: 5px;
+  text-align: center;
+  border-radius: 7px;
+  box-shadow: var(--drop-shadow);
+  max-width: 50%;
+  margin: 10px auto;
+  min-width: 6em;
+}
+
+.skillstext {
+  font-size: 16px;
+  margin-bottom: 0px;
+  color: #595b8b;
+}
+
+.worktext {
+  font-family: var(--default-font-family);
+  font-weight: normal;
+  font-size: 34px;
+  line-height: 2;
+  text-align: center;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
 }
 @media (max-width: 900px) {
   h1 {
